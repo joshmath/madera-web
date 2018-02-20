@@ -1,0 +1,35 @@
+@mixin font--primary-light {
+  font-family: 'Oswald', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+@mixin font--primary-regular {
+  font-family: 'Oswald', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+@mixin font--primary-medium {
+  font-family: 'Oswald', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+@mixin font--primary-semibold {
+  font-family: 'Oswald', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+@mixin font--secondary-medium {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+@mixin font--secondary-bold {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}

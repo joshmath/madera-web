@@ -1,0 +1,55 @@
+html {
+  color: $type--dark;
+  @include font--secondary-medium;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @include font--primary-regular;
+  margin: 0 0;
+}
+
+p {
+  @include body;
+  @include font--secondary-medium;  
+}
+
+p + p{
+  margin-top: 15px;
+}
+
+a {
+  text-decoration:none;
+  transition: color .2s;
+  color: $type--link;
+
+  &:hover {
+    color: $type--link-hover;
+  }
+
+  &:focus {
+    outline: none;
+    outline-offset: none;
+  }
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: $gray-light;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: $gray-light;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: $gray-light;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: $gray-light;
+}
+
+.text--white{
+  color:#fff;
+}

@@ -1,0 +1,56 @@
+.btn{
+  background: transparent;
+  border: 1px solid transparent;
+  color: $type--dark;
+  padding: 7px 12px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  cursor:pointer;
+  transition: all .2s;
+  @include header-button-type;
+  &:hover{
+    background: $light;
+  }
+}
+
+.btn--primary{
+  background: $button-primary-background;
+  color: $button-primary-color;
+  &:hover{
+    background: shade($button-primary-background, 25%);
+  }
+}
+
+.btn--secondary {
+  background: $button-secondary-background;
+  color: $button-secondary-color;
+  &:hover{
+    background: shade($button-secondary-background, 25%);
+  }
+}
+
+.btn--ghost{
+  border: 1px solid $button-ghost-border-color;
+  &:hover{
+    background: $button-ghost-border-color;
+    color: $white;
+  }
+}
+
+.btn--ghost-white{
+  border-color: $white;
+  color: $white;
+  &:hover{
+    background-color: $white;
+    color: $type--dark;
+  }
+}
+
+
+.hr{
+  display:block;
+  height: 1px;
+  background: $rule--light;
+  width: 100%;
+  margin: 25px auto;
+}
